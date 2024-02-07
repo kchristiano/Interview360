@@ -1,0 +1,72 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Aficionado",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Payload",
+        "printedName": "Payload",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getMessage",
+            "printedName": "getMessage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10Aficionado7PayloadV10getMessageSSyFZ",
+            "mangledName": "$s10Aficionado7PayloadV10getMessageSSyFZ",
+            "moduleName": "Aficionado",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10Aficionado7PayloadV",
+        "mangledName": "$s10Aficionado7PayloadV",
+        "moduleName": "Aficionado",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Payload.swift",
+      "kind": "StringLiteral",
+      "offset": 185,
+      "length": 28,
+      "value": "\"This is a successful test!\""
+    },
+    {
+      "filePath": "\/Users\/kevinchristiano\/L360\/Projects\/Interview\/Aficionado\/Aficionado\/Payload.swift",
+      "kind": "StringLiteral",
+      "offset": 278,
+      "length": 12,
+      "value": "\"Unexpected\""
+    }
+  ]
+}

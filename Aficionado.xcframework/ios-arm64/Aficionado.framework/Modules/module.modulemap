@@ -1,0 +1,11 @@
+framework module Aficionado {
+  umbrella header "Aficionado.h"
+
+  export *
+  module * { export * }
+}
+
+module Aficionado.Swift {
+  header "Aficionado-Swift.h"
+  requires objc
+}
